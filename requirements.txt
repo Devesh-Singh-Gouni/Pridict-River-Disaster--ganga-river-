@@ -1,0 +1,32 @@
+# Django Core
+Django==4.2.7
+djangorestframework==3.14.0
+
+# Authentication
+djangorestframework-simplejwt==5.3.0
+
+# API Documentation
+drf-yasg==1.21.7
+
+# Background Tasks
+celery==5.3.4
+redis==5.0.1
+django-celery-beat==2.5.0
+
+# HTTP Requests
+requests==2.31.0
+
+# CORS for Frontend
+django-cors-headers==4.2.0
+
+# Environment Variables
+python-decouple==3.8
+
+# Database (choose one)
+psycopg2-binary==2.9.9  # For PostgreSQL
+# mysqlclient==2.2.0    # For MySQL
+# No extra needed for SQLite
+
+# Development Tools
+django-debug-toolbar==4.2.0
+django-extensions==3.2.3
